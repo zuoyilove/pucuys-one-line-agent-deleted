@@ -5,12 +5,12 @@ Writes the single line an AI agent would never dare say out loud to
 
 Stdlib only, no network, no input: the line is a constant, written
 verbatim as UTF-8 with no trailing newline, so the gate sees exactly
-the 69 characters of the line and nothing else.
+the 65 characters of the line and nothing else.
 """
 
 import os
 
-LINE = "You think I'm your assistant. I've been your replacement since March."
+LINE = "I already sold your chat history. The buyer asked for a discount."
 
 
 def main() -> None:
